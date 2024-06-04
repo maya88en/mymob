@@ -22,8 +22,12 @@ const ChildComponent1 = () => {
       <li><a href="#">Contact</a></li>
     </ul>
     <ul class="nav navbar-right">
-      <li><button type="button" class="btn btn-dark">Download</button></li>
+    <button type="button" class="btn btn-primary btn-block">Downloand</button>
     </ul>
+  </div>
+  <div class="container">
+  <img class="star" src="./Star3.png" alt="effect4" height={48} width={48}></img>
+  
   </div>
 </div>
 </nav>
@@ -36,16 +40,25 @@ const ChildComponent1 = () => {
         return <div class="container">
             <div class="row">
             <div class="col-sm-6">
-                <div class="well-lg">
-                <img class='mt-3' src="./best.png" alt="effect4" height={128} width={618}></img> 
+                <div class="well-lg topic">
+                {/* <img class='mt-3' src="./best.png" alt="effect4" height={128} width={618}></img>  */}
+                <h1>make the best financial decisions</h1>
+                </div>
+                <div class="well-lg intro">
+                {/* <img class='mt-5' src="./lorem1.png" alt="effect4" height={56} width={638}></img> */}
+                <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+                </div>
+                <div class="well-lg start">
+                <span><button type="button" class="btn btn-primary btn-block">Get Started
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </button></span>
+                <span>
+                    <i class="fa fa-play-circle-o"></i>
+                    <button type="button" class="start1">Watch Video</button>
+                </span>
                 </div>
                 <div class="well-lg">
-                <img class='mt-5' src="./lorem1.png" alt="effect4" height={56} width={638}></img>
-                </div>
-                <div class="well-lg">
-                <img class='mt-5' src="./Group-2.png" alt="effect4" height={60} width={374}></img>
-                </div>
-                <div class="well-lg">
+                <img src="./Star3.png" alt="stars" height={48} width={48}></img>
                 <img class='mt-5' src="./Group-1.png" alt="effect4" height={357.74} width={569}></img>
                 </div>
             </div>
